@@ -1,62 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>layout</title>
+    <title>Biografia de [Nome da Personalidade]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
 
-    <div class="background">
-        <header>
-            <div class="logo">
-                <i class="fa-regular fa-e"></i>
-            </div><!--logo-->
+<!-- Cabeçalho -->
+<header style="background-color: #6f42c1;" class="text-white text-center py-4">
+    <h1>Biografia Matuê</h1>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contato">Fale Conosco</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <div class="cabeçalho-link">
-                <li>
-                    <a href="#">Home</a>
-                </li>
+<!-- Parágrafo Introdutório -->
+<section class="container text-center my-5">
+    <h2>Introdução</h2>
+    <p>Matue, cujo nome completo é Mateus de Souza, nasceu em 1998, em Fortaleza, Ceará. Desde cedo, ele se interessou pela música e, em 2017, começou a lançar suas primeiras faixas no YouTube e em plataformas de streaming, ganhando rapidamente popularidade na cena do rap e do trap brasileiro
+        Seu estilo é caracterizado por uma mistura de influências do trap americano, rap nacional e elementos da cultura pop, além de letras que abordam temas como a vida nas periferias, a busca por sonhos e questões emocionais. Matue se destaca pela sua habilidade lírica e por uma entrega intensa nas suas performances.       
+        Em 2019, ele lançou seu álbum de estreia, intitulado "Matue", que incluiu hits como "Kenny G" e "Caviar". O álbum foi bem recebido pela crítica e pelo público, consolidando sua presença no cenário musical. A música "Kenny G" em particular se tornou um grande sucesso, ajudando a impulsionar sua carreira.       
+        Nos anos seguintes, Matue continuou a lançar novos trabalhos e colaborou com diversos artistas, ampliando sua influência e se tornando uma voz importante na nova geração do rap brasileiro. Em 2021, ele lançou seu segundo álbum, "Para Sempre", que trouxe uma evolução em seu som e em suas letras, explorando novas sonoridades e abordagens.     
+        Além da música, Matue é ativo nas redes sociais, onde se conecta com seus fãs e compartilha aspectos de sua vida pessoal e profissional. Seu estilo autêntico e a capacidade de dialogar com questões contemporâneas garantiram a ele um espaço significativo na música brasileira, tornando-o uma referência para muitos jovens.
+        Com uma carreira em ascensão, Matue é visto como uma das promessas do rap nacional, e sua trajetória continua a ser acompanhada de perto tanto por fãs quanto pela crítica especializada.</p>
+    <img src="https://portalpopline.com.br/wp-content/uploads/2022/09/matue-show-rock-in-rio-charlie-brown-jr.jpg" alt="[Nome da Personalidade]" class="img-fluid">
+</section>
 
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
+<!-- Seção de Vida Pessoal -->
+<section id="sobre" class="container my-5">
+    <h2>Vida Pessoal</h2>
+    <p>[Informações sobre a vida pessoal da personalidade]</p>
+</section>
 
-                <li>
-                    <a href="#">Serviços</a>
-                </li>
+<!-- Seção de Galeria -->
+<section id="galeria" class="container my-5">
+    <h2>Galeria</h2>
+    <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/800x400?text=Imagem+1" class="d-block" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400?text=Imagem+2" class="d-block" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/matue.jpg?w=1200&h=900&crop=1" class="d-block" alt="Imagem 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+</section>
 
-                <li>
-                    <a href="#">Trabalho</a>
-                </li>
-                <button>Meu Contato</button>
-            </div><!--cabeçalho-link-->
-        </header>
+<!-- Embutir Vídeos -->
+<section class="container my-5">
+    <h2>Quem é Matuê?</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wlF8sq4nSd0?si=vazA7JjcDv1gkVv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
 
-        <div class="container-text">
-            <div class="text">
-                <h3>Ola, Pessoal</h3>
-                <h1>Eu sou <span>Elizabeth Elmiz</span></h1>
-                <p>Lorem Ipsum é simplesmente uma simulação de texto<br>da indústria tipográfica e de impressos</p>
-                <div class="redes-social">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                    <a href="#"><i class="fa-brands fa-behance"></i></a>
-                </div><!--redes-social-->
-                <button class="btn">Sobre Mim</button>
-            </div><!--text-->
-        </div><!--container-text-->
-    </div><!--background-->
+<!-- Lista de Links -->
+<section class="container my-5">
+    <h2>Links Úteis</h2>
+    <ul>
+        <li><a href="[Link 1]" target="_blank">[Descrição do Link 1]</a></li>
+        <li><a href="[Link 2]" target="_blank">[Descrição do Link 2]</a></li>
+        <li><a href="[Link 3]" target="_blank">[Descrição do Link 3]</a></li>
+    </ul>
+</section>
 
+<!-- Formulário de Fale Conosco -->
+<section id="contato" class="container my-5">
+    <h2>Fale Conosco</h2>
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
 
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Matuê. Todos os direitos reservados.</p>
+    <div>
+        <a href="[Link da Rede Social 1]" class="text-white">Facebook</a> |
+        <a href="[Link da Rede Social 2]" class="text-white">Twitter</a> |
+        <a href="[Link da Rede Social 3]" class="text-white">Instagram</a>
+    </div>
+</footer>
 
-    <script type="script.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
