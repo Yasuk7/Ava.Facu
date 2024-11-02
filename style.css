@@ -3,13 +3,13 @@
 }
 
 .carousel-container {
-    max-width: 800px; /* Largura máxima do contêiner */
-    height: 400px; /* Altura do contêiner */
+    max-width: 661px; /* Largura máxima do contêiner */
+    height: 661px; /* Altura do contêiner */
     overflow: hidden;
     margin: 0 auto; /* Centraliza o carrossel */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 661px) {
     .carousel-container {
         width: 100%; /* Largura total em telas menores */
         height: 300px; /* Ajuste a altura para telas menores, se necessário */
